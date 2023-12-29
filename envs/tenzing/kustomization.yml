@@ -15,3 +15,7 @@ patches:
 - path: dashboard-resources.yaml
 - path: wazuh-master-resources.yaml
 - path: wazuh-worker-resources.yaml
+- path: dashboard-svc.yaml
+- path: wazuh-master-svc.yaml
+- path: indexer-svc.yaml
+- path: wazuh-workers-svc.yaml

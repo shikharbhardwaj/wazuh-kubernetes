@@ -1,0 +1,13 @@
+
+# Dashboard service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: dashboard
+  namespace: wazuh
+  annotations:
+    traefik.ingress.kubernetes.io/service.serversscheme: https
+    traefik.ingress.kubernetes.io/service.serverstransport: wazuh-skipverify@kubernetescrd
+spec:
+  type: ClusterIP

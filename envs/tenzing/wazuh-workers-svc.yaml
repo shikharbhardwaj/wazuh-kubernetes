@@ -1,0 +1,10 @@
+
+# Wazuh master service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: wazuh-workers
+  namespace: wazuh
+spec:
+  type: ClusterIP

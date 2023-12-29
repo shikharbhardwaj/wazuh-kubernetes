@@ -1,0 +1,10 @@
+
+# Indexer service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: indexer
+  namespace: wazuh
+spec:
+  type: ClusterIP
